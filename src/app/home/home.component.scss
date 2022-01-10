@@ -1,0 +1,49 @@
+.header {
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #444;
+  }
+ .body {
+    position: absolute; top: 10vh; right: 0; 
+    bottom: 0; 
+    left: 0; display: flex;
+  }
+  .main {
+    flex: 1; display: flex; flex-direction: column;
+    border-radius: 5px;
+    margin: 10px 0px;
+    background: red;
+  }
+  .page-header {
+    padding: 6px 20px; background: #004141; color: #fff; font-size: .8em;
+  }
+ .content {
+    
+    flex: 1; display: flex; overflow: auto;
+  } 
+  .box {
+    min-height: -webkit-min-content; 
+    display:flex; 
+    flex: 1;
+  }
+  .column {
+    flex:1;
+  }
+  .column > div {
+    min-height: 610px;
+    padding: 20px;
+  }
+  .sidebar {
+    padding: 4px 20px; 
+    width: 10%;
+    flex: 0 0 auto;
+	overflow-y: auto;
+    margin: 10px;
+    background: rgb(63, 71, 71);
+    border-radius: 5px;
+  }
+
+
+
+  

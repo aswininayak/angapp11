@@ -1,0 +1,39 @@
+.wrapper, html, body {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+#row1 {
+  background-color: red;
+  height:20vh;
+}
+#row2 {
+    background-color: blue;
+}
+.contentRow {
+    flex:2;
+    display: flex;
+}
+.aside {
+    border-right: 2px solid gray;
+    flex: 0 0 10%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    flex: 1 1 90%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+#col3 {
+    background-color: purple;
+    flex: 0 0 15%;
+    min-height: 100%;
+}

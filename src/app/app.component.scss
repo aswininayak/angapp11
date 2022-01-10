@@ -1,0 +1,20 @@
+* {
+    scrollbar-width: thin;
+}
+body{
+    margin: 0;
+  } 
+  .wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .header, .footer{
+    height: 10vh;
+    background: #666;
+  }
+  .content {
+    flex: 1;
+    display: flex;
+    color: #000;
+  }
